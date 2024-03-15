@@ -1,0 +1,97 @@
+Ap is used to communicate between the two systems 
+for example one can understand it as consider you have went to a restuarantand in that there is a waiter you call the waiter and tell the waiter that you want an icecream 
+and so witer goes to the chef and asks the chef to make an iceream for you and when the icecream is made and ready he comes gives the ice cream to you 
+
+so here waiter is acting as an api which acts as a source of communication between system1 (you ) and chef(system 2)(server)
+
+
+in this we are making a weatherapp
+1.which shows the weather of current location or city 
+2. you give the input of a city and its wetaher will be displayed 
+
+here you are a client 
+so from where this weather will be known you down know whats the weather 
+so all this data is fetched from some server using api 
+so whenever you type the name of the city a request is ent to the server i.e api to fetch some data and if you are the valid user like
+
+you have api key and all then your request will be accepted and then a response will be sent 
+
+api key is the credential used by the server like if u are a registetred  user or not 
+here will use open weather api 
+apikey is secret key 
+
+api key :
+a0dd0a1fc6166396bfd09c7f89f51525
+
+640537739ea22008a55d732be0f4f500
+
+rapid api gives free api then theree some github pages where we get the free api 
+
+i api calls we dont knoww when the response will come so whnever working with api we are using 
+async and await 
+
+in all acertain types of things all things are done using async and await 
+like i dont kmow when will i get the respoipnse
+
+so all asynchronous things are done 
+
+api calls work on promises 
+
+here he is using the approch of making thngs visible and invisble suing the css property of active and not active
+so yeah its something kind of a new approach 
+
+lets keep that approach after making the things 
+
+
+loading thing in weather app is impaortant as its taking into consideration the importance offetching the api and 
+the time required and ll that stuff how much time the loading should take place 
+
+how the api takes current longitude and latitude on its own
+
+
+
+navigator. geolocation. getCurrentPosition() 
+
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+api calls are like network requests
+call back function 
+function trhat takes input as another function as irts argument
+
+
+In JavaScript, getElementsByClassName returns a collection of elements with the specified class name. This function returns an array-like object called a NodeList, which is similar to an array but lacks some of the array methods.
+
+When you access elements by class name using getElementsByClassName, it returns a collection, even if there's only one element with that class name. In your case, you're accessing elements with the class name 'wrapper'.
+
+so 0 is used 
+
+var wrapper = document.getElementsByClassName('wrapper')[0];
+
+classList in js
+switching tabs in js 
+active class and all 
+sessionstorage in js 
+ sessionstorage.getItem("")
+
+ operation chaining example :
+ user?.address?.zip
+
+ JSON.stringyfy(userCoordinates)
+ e.preventDefault()
+
+ searchInput.Value
+
+ async thing 
